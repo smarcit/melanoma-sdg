@@ -1,0 +1,9 @@
+class,weight_invfreq
+actinic_keratosis_bowen,1.3472079379798299
+basal_cell_carcinoma,0.6125214932124919
+benign_keratosis,0.32883168736356905
+dermatofibroma,1.9223006545878205
+melanocytic_nevus,0.034208487417227165
+melanoma,0.37613462150867644
+other,1.9932051869291747
+vascular_lesion,1.3855899305148678

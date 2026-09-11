@@ -1,0 +1,38 @@
+{
+  "split": "test_control",
+  "classes": [
+    "melanocytic_nevus",
+    "melanoma"
+  ],
+  "auroc_macro": NaN,
+  "auroc_micro": 0.3684375000000001,
+  "auroc_per_class": [
+    0.34359375000000003,
+    0.5071875,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "f1_macro": 0.015873015873015872,
+  "f1_per_class": [
+    0.0,
+    0.09523809523809523,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ece": 0.8624369238317013,
+  "n_samples": 200,
+  "img_size": 224,
+  "batch_size": 64,
+  "model": "tf_efficientnetv2_s.in1k",
+  "checkpoint": "../train/runs/E1_aprox/last.pth.tar"
+}

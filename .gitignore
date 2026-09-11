@@ -1,0 +1,16 @@
+.DS_Store
+
+# Large training artifacts — do not commit
+src/gen/train/
+src/train/runs/
+
+# Nested upstream repos (see README for setup instructions) — only if going with Option A
+src/gen/diffusers/
+src/gen/stylegan2-ada-pytorch/
+src/classif/pytorch-image-models/
+src/classif/timm/
+
+If you'd rather keep reports/figures and reports/results out of history too (they're regenerable), add:
+gitignore
+reports/figures/
+reports/results/

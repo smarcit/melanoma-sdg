@@ -1,0 +1,7 @@
+split,dataset,actinic_keratosis_bowen,basal_cell_carcinoma,benign_keratosis,dermatofibroma,melanocytic_nevus,melanoma,other,unknown,vascular_lesion
+test,ISIC2019,598,2212,1391,96,5378,3132,371,0,91
+test_control,PH2,0,0,0,0,160,40,0,0,0
+train,DERM12345,72,342,512,155,8421,317,234,11,232
+train,HAM10000,295,459,986,103,5884,990,0,0,124
+val,DERM12345,8,37,56,17,935,35,26,1,25
+val,HAM10000,32,51,109,11,653,110,0,0,13

@@ -1,0 +1,8 @@
+split,dataset,count,total_split,percent_in_split
+test,ISIC2019,12828,12828,100.0
+test_control,PH2,200,200,100.0
+test_fairness,Fitzpatrick17k,14165,14165,100.0
+train,DERM12345,10166,18992,53.53
+train,HAM10000,8826,18992,46.47
+val,DERM12345,1124,2100,53.52
+val,HAM10000,976,2100,46.48

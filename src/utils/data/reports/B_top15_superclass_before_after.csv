@@ -1,0 +1,12 @@
+superclass,count_before,count_after
+melanocytic_nevus,29904,21364
+other,12539,12169
+melanoma,6572,5050
+basal_cell_carcinoma,4772,3472
+benign_keratosis,4494,3069
+actinic_keratosis_bowen,1395,1078
+vascular_lesion,1080,857
+dermatofibroma,612,446
+squamous_cell_carcinoma,463,460
+other_malignant,309,308
+unknown,12,12

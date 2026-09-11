@@ -1,0 +1,7 @@
+split,dataset,count,total_split,percent_in_split
+test,ISIC2019,13269,13269,100.0
+test_control,PH2,200,200,100.0
+train,DERM12345,10296,19137,53.8
+train,HAM10000,8841,19137,46.2
+val,DERM12345,1140,2119,53.8
+val,HAM10000,979,2119,46.2

@@ -1,0 +1,10 @@
+{
+  "num_classes": 8,
+  "total_train": 18992,
+  "max_per_class": 14217,
+  "min_per_class": 244,
+  "imbalance_ratio_max_min": 58.26639344262295,
+  "entropy": 0.9937816551494989,
+  "gini": 0.42613767473769826,
+  "coef_variation": 1.8949666493359159
+}

@@ -1,0 +1,42 @@
+{
+  "split": "test_fairness",
+  "classes": [
+    "actinic_keratosis_bowen",
+    "basal_cell_carcinoma",
+    "benign_keratosis",
+    "dermatofibroma",
+    "melanocytic_nevus",
+    "melanoma",
+    "other",
+    "vascular_lesion"
+  ],
+  "auroc_macro": 0.612568644518954,
+  "auroc_micro": 0.49955145262679673,
+  "auroc_per_class": [
+    0.49131572097865694,
+    0.7767925527266747,
+    0.6025553737043099,
+    0.5903799384906553,
+    0.6561323121152007,
+    0.7317813639044931,
+    0.4293336264566301,
+    0.6222582677750106
+  ],
+  "f1_macro": 0.10038709760382808,
+  "f1_per_class": [
+    0.06128133704735376,
+    0.2248939179632249,
+    0.030874785591766724,
+    0.026079869600651995,
+    0.039257577780745095,
+    0.18019359642591215,
+    0.14859650450177803,
+    0.09191919191919191
+  ],
+  "ece": 0.5551259820805479,
+  "n_samples": 14165,
+  "img_size": 384,
+  "batch_size": 16,
+  "model": "tf_efficientnetv2_s.in1k",
+  "checkpoint": "../train/runs/E4_SYNTH/best.pt"
+}

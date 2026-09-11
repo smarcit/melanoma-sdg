@@ -1,0 +1,62 @@
+superclasses:
+  - melanoma
+  - melanocytic_nevus
+  - basal_cell_carcinoma
+  - actinic_keratosis_bowen
+  - benign_keratosis
+  - dermatofibroma
+  - vascular_lesion
+  - other
+
+datasets:
+  HAM10000:
+    akiec: actinic_keratosis_bowen
+    bcc: basal_cell_carcinoma
+    bkl: benign_keratosis
+    df: dermatofibroma
+    nv: melanocytic_nevus
+    mel: melanoma
+    vasc: vascular_lesion
+
+  ISIC2019:
+    MEL: melanoma
+    NV: melanocytic_nevus
+    BCC: basal_cell_carcinoma
+    AK: actinic_keratosis_bowen
+    BKL: benign_keratosis
+    DF: dermatofibroma
+    VASC: vascular_lesion
+    SCC: other
+
+  PH2:
+    melanoma: melanoma
+    common_nevus: melanocytic_nevus
+    atypical_nevus: melanocytic_nevus
+
+  DERM12345:
+    Angiokeratoma: vascular_lesion
+    Basal cell carcinoma: basal_cell_carcinoma
+    Dermatofibroma: dermatofibroma
+    Dermatofibrosarcoma protuberans: other            # sarcoma cutáneo (maligno), fuera de 8-clases ISIC
+    Hemangioma: vascular_lesion
+    Ink-spot lentigo: benign_keratosis                # variante de lentigo (BKL)
+    Kaposi sarcoma: vascular_lesion                   # neoplasia vascular (sin clase ISIC específica)
+    Lentigo simplex: benign_keratosis
+    Lichen planus like keratosis: benign_keratosis    # LPLK se agrupa en BKL en ISIC
+    Lymphangioma: vascular_lesion
+    Melanoma Invasive: melanoma
+    Melanoma in situ: melanoma
+    Melanoma, NOS: melanoma
+    Nevus: melanocytic_nevus
+    Paget disease: other                              # enfermedad de Paget cutánea
+    Pyogenic granuloma: vascular_lesion
+    Seborrheic keratosis: benign_keratosis
+    Solar lentigo: benign_keratosis
+    Solar or actinic keratosis: actinic_keratosis_bowen
+    Squamous cell carcinoma in situ: actinic_keratosis_bowen  # Bowen's disease (in situ)
+    Squamous cell carcinoma, NOS: other               # SCC invasivo → fuera de 8-clases ISIC en tu taxonomía
+    Vascular spider: vascular_lesion
+
+binary_rules:
+  melanoma: melanoma
+  default_non_melanoma: no_melanoma

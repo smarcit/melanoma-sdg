@@ -1,0 +1,24 @@
+{
+  "split": "test_control",
+  "taxonomy": "binary_melanoma_vs_nonmelanoma",
+  "train_classes_global": [
+    "actinic_keratosis_bowen",
+    "basal_cell_carcinoma",
+    "benign_keratosis",
+    "dermatofibroma",
+    "melanocytic_nevus",
+    "melanoma",
+    "other",
+    "vascular_lesion"
+  ],
+  "mel_idx_global": 5,
+  "auroc": 0.9390625,
+  "f1_binary": 0.6046511627906976,
+  "sensitivity": 0.975,
+  "specificity": 0.6875,
+  "ece": 0.15342069387435914,
+  "n": 200,
+  "img_size": 384,
+  "batch_size": 8,
+  "checkpoint": "../train/runs/E4_OS/best.pt"
+}
